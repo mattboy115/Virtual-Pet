@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "wcci.org.virtualpet.Main",
+            "projectName": "virtualpet"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-VirtualpetApplication<virtualpet>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "wcci.org.virtualpet.VirtualpetApplication",
+            "projectName": "virtualpet",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
